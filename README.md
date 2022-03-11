@@ -58,3 +58,19 @@ n element => O(n) <br/>
 Because it's divided by 2 => 2^x = n => log(n) = x => O(log(n))<br/>
 O(n), O(log(n)) => O(nlogn)
 
+
+# Binary Search Tree<br/>
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] -> Binary-Search-Tree <br/>
+
+
+       7
+      / \
+    5     8 
+   /   \    \
+  1     6    9
+ /     /
+0     3
+     /  \
+    2     4 
+
