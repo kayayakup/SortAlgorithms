@@ -37,3 +37,24 @@ Avarage case kapsamında olur.<br/>
 [2, 3, 4, 8, 7, 9, 5, 15, 6]<br/>
 [2, 3, 4, 5, 7, 9, 8, 15, 6]<br/>
 [2, 3, 4, 5, 6, 9, 8, 15, 7]<br/>
+
+
+# Merge Sort Project <br/>
+
+Input => [16, 21, 11, 8, 12, 22]<br/>
+
+First half	Second half<br/>
+
+[16, 21, 11]	[8, 12, 22]<br/>
+[16], [21, 11]	[8, 12], [22]<br/>
+[16], [21], [11]	[8], [12], [22]<br/>
+[16], [11, 21]	[8, 12], [22]<br/>
+[11, 16, 21]	[8, 12, 22]<br/>
+
+Output => [8, 11, 12, 16, 21, 22]<br/>
+
+Second Part => Big O Notation<br/>
+n element => O(n) <br/>
+Because it's divided by 2 => 2^x = n => log(n) = x => O(log(n))<br/>
+O(n), O(log(n)) => O(nlogn)
+
